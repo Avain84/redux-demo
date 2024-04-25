@@ -11,7 +11,7 @@ export const counterSlice = createSlice({
   name: 'counter', // 切片的名稱
   initialState, // 切片包含的 state
   // reducer 會放入很多 function 來看如何操作這個 State
-  reducer: { // 切片做事情的函式
+  reducers: { // 切片做事情的函式
     increment: (state) => {
       state.count += 1;
     },
